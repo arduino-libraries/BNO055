@@ -1,5 +1,7 @@
 Sample SW for using BNO055 with Arduino
 
+[![Spell Check status](https://github.com/arduino-libraries/BNO055/actions/workflows/spell-check.yml/badge.svg)](https://github.com/arduino-libraries/BNO055/actions/workflows/spell-check.yml)
+
 (C) All rights reserved by ROBERT BOSCH GMBH
 
 Copyright (C) 2014 Bosch Sensortec GmbH
