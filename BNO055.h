@@ -1,7 +1,7 @@
 /*
  ***************************************************************************
  *
- *  bno055.h - part of sample SW for using BNO055 with Arduino
+ *  BNO055.h - part of sample SW for using BNO055 with Arduino
  * 
  * Usage:        BNO055 Sensor Driver Header File
  * 
@@ -531,43 +531,43 @@ BNO055_S16 z;
 #define BNO055_CHIP_ID__LEN             8
 #define BNO055_CHIP_ID__REG             BNO055_CHIP_ID_ADDR
 
-/* Accel revision id*/
+/* Accel revision ID*/
 #define BNO055_ACC_REV_ID__POS             0
 #define BNO055_ACC_REV_ID__MSK             0xFF
 #define BNO055_ACC_REV_ID__LEN             8
 #define BNO055_ACC_REV_ID__REG             BNO055_ACC_REV_ID_ADDR
 
-/* Mag revision id*/
+/* Mag revision ID*/
 #define BNO055_MAG_REV_ID__POS             0
 #define BNO055_MAG_REV_ID__MSK             0xFF
 #define BNO055_MAG_REV_ID__LEN             8
 #define BNO055_MAG_REV_ID__REG             BNO055_MAG_REV_ID_ADDR
 
-/* Gyro revision id*/
+/* Gyro revision ID*/
 #define BNO055_GYR_REV_ID__POS             0
 #define BNO055_GYR_REV_ID__MSK             0xFF
 #define BNO055_GYR_REV_ID__LEN             8
 #define BNO055_GYR_REV_ID__REG             BNO055_GYR_REV_ID_ADDR
 
-/*Software revision id LSB*/
+/*Software revision ID LSB*/
 #define BNO055_SW_REV_ID_LSB__POS             0
 #define BNO055_SW_REV_ID_LSB__MSK             0xFF
 #define BNO055_SW_REV_ID_LSB__LEN             8
 #define BNO055_SW_REV_ID_LSB__REG             BNO055_SW_REV_ID_LSB_ADDR
 
-/*Software revision id MSB*/
+/*Software revision ID MSB*/
 #define BNO055_SW_REV_ID_MSB__POS             0
 #define BNO055_SW_REV_ID_MSB__MSK             0xFF
 #define BNO055_SW_REV_ID_MSB__LEN             8
 #define BNO055_SW_REV_ID_MSB__REG             BNO055_SW_REV_ID_MSB_ADDR
 
-/* BOOTLOADER revision id*/
+/* BOOTLOADER revision ID*/
 #define BNO055_BL_Rev_ID__POS             0
 #define BNO055_BL_Rev_ID__MSK             0xFF
 #define BNO055_BL_Rev_ID__LEN             8
 #define BNO055_BL_Rev_ID__REG             BNO055_BL_Rev_ID_ADDR
 
-/*Page id*/
+/*Page ID*/
 #define BNO055_Page_ID__POS             0
 #define BNO055_Page_ID__MSK             0xFF
 #define BNO055_Page_ID__LEN             8

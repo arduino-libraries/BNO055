@@ -1,7 +1,7 @@
 /*
  ***************************************************************************
  *
- *  bno055.c - part of sample SW for using BNO055 with Arduino
+ *  BNO055.c - part of sample SW for using BNO055 with Arduino
  * 
  * Usage:        BNO055 Sensor Driver Source File
  * 
@@ -214,13 +214,13 @@ unsigned char *data, unsigned char len)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads chip id
+ * Description: *//**\brief This API reads chip ID
  *                          from location 00h
  *
  *
  *
  *
- *  \param unsigned char *chip_id   : Pointer holding the chip id
+ *  \param unsigned char *chip_id   : Pointer holding the chip ID
  *
  *
  *
@@ -254,13 +254,13 @@ BNO055_RETURN_FUNCTION_TYPE bno055_read_chip_id(unsigned char *chip_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads software revision id
+ * Description: *//**\brief This API reads software revision ID
  *                          from location 04h and 05h
  *
  *
  *
  *
- *  \param BNO055_U16 *sw_id   : Pointer holding the SW revision id
+ *  \param BNO055_U16 *sw_id   : Pointer holding the SW revision ID
  *
  *
  *
@@ -302,13 +302,13 @@ BNO055_RETURN_FUNCTION_TYPE bno055_read_sw_revision_id(BNO055_U16 *sw_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads page id
+ * Description: *//**\brief This API reads page ID
  *                          from location 07h
  *
  *
  *
  *
- *  \param unsigned char *page_id   : Pointer holding the page id
+ *  \param unsigned char *page_id   : Pointer holding the page ID
  *
  *
  *
@@ -343,7 +343,7 @@ BNO055_RETURN_FUNCTION_TYPE bno055_read_page_id(unsigned char *pg_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API writes the page id register 07h
+ * Description: *//**\brief This API writes the page ID register 07h
  *
  *
  *
@@ -393,13 +393,13 @@ BNO055_RETURN_FUNCTION_TYPE bno055_write_page_id(unsigned char page_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads accel revision id
+ * Description: *//**\brief This API reads accel revision ID
  *                          from location 01h
  *
  *
  *
  *
- *  \param unsigned char *acc_rev_id   : Pointer holding the accel revision id
+ *  \param unsigned char *acc_rev_id   : Pointer holding the accel revision ID
  *
  *
  *
@@ -434,13 +434,13 @@ unsigned char *acc_rev_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads mag revision id
+ * Description: *//**\brief This API reads mag revision ID
  *                          from location 02h
  *
  *
  *
  *
- *  \param unsigned char *mag_rev_id   : Pointer holding the mag revision id
+ *  \param unsigned char *mag_rev_id   : Pointer holding the mag revision ID
  *
  *
  *
@@ -475,13 +475,13 @@ unsigned char *mag_rev_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads gyro revision id
+ * Description: *//**\brief This API reads gyro revision ID
  *                          from location 03h
  *
  *
  *
  *
- *  \param unsigned char *gyr_rev_id   : Pointer holding the gyro revision id
+ *  \param unsigned char *gyr_rev_id   : Pointer holding the gyro revision ID
  *
  *
  *
@@ -516,14 +516,14 @@ unsigned char *gyr_rev_id)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API reads boot loader revision id
+ * Description: *//**\brief This API reads boot loader revision ID
  *                          from location 06h
  *
  *
  *
  *
  *  \param unsigned char *bl_rev_id   : Pointer holding
- *                                      the boot loader revision id
+ *                                      the boot loader revision ID
  *
  *
  *  \return result of communication routines
@@ -3763,7 +3763,7 @@ if (p_bno055 == BNO055_Zero_U8X) {
 #endif
 */
 /*****************************************************************************
- * Description:*//**\brief Reads data out put format of android and windows OS
+ * Description:*//**\brief Reads data output format of Android and Windows OS
  *                          register byte from 3Bh
  *
  *
@@ -3771,7 +3771,7 @@ if (p_bno055 == BNO055_Zero_U8X) {
  *
  *  \param
  *      unsigned char *dof : Pointer holding the
- *                              data out put format of android and windows OS
+ *                              data output format of Android and Windows OS
  *
  *
  *  \return
@@ -3818,8 +3818,8 @@ unsigned char *dof)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API sets the data out put format of
- *                                    android and windows OS 3Bh
+ * Description: *//**\brief This API sets the data output format of
+ *                                    Android and Windows OS 3Bh
  * (7th bit)
  *
  *
@@ -4859,7 +4859,7 @@ unsigned char *data_out_rate)
 #endif
 */
 /*****************************************************************************
- * Description: *//**\brief This API sets the data out put rate in
+ * Description: *//**\brief This API sets the data output rate in
  *                                    3Dh register
  *
  *

@@ -1,7 +1,7 @@
 /*
  ***************************************************************************
  *
- *  bno055_support.h - part of sample SW for using BNO055 with Arduino
+ *  BNO055_support.h - part of sample SW for using BNO055 with Arduino
  * 
  * Usage:        BNO055 Sensor Driver Support header File
  * 
@@ -167,8 +167,3 @@ BNO055_RETURN_FUNCTION_TYPE BNO055_I2C_bus_write(unsigned char ,unsigned char , 
  ****************************************************************************/
 void _delay(unsigned int);
 #endif
-
-
-
-
-
