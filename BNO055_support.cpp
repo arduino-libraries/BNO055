@@ -1,7 +1,7 @@
 /*
  ***************************************************************************
  *
- *  bno055.c - part of sample SW for using BNO055 with Arduino
+ *  BNO055_support.cpp - part of sample SW for using BNO055 with Arduino
  * 
  * Usage:        BNO055 Sensor Driver Support Source File
  * 
@@ -199,7 +199,3 @@ void _delay(unsigned int period)
 {
 	delay(long(period));
 }
-
-
-
-

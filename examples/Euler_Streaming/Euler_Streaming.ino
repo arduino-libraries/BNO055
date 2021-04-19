@@ -1,7 +1,7 @@
 /*
  ***************************************************************************
 
-    Euler_Streaming.pde - part of sample SW for using BNO055 with Arduino
+    Euler_Streaming.ino - part of sample SW for using BNO055 with Arduino
 
    (C) All rights reserved by ROBERT BOSCH GMBH
 
@@ -30,7 +30,7 @@
 #include <Wire.h>
 
 //The device address is set to BNO055_I2C_ADDR2 in this example. You can change this in the BNO055.h file in the code segment shown below.
-// /* bno055 I2C Address */
+// /* BNO055 I2C Address */
 // #define BNO055_I2C_ADDR1                0x28
 // #define BNO055_I2C_ADDR2                0x29
 // #define BNO055_I2C_ADDR                 BNO055_I2C_ADDR2
@@ -66,7 +66,7 @@ void setup() //This code is executed once
 
 void loop() //This code is looped forever
 {
-  if ((millis() - lastTime) >= 100) //To stream at 10Hz without using additional timers
+  if ((millis() - lastTime) >= 100) //To stream at 10 Hz without using additional timers
   {
     lastTime = millis();
 
